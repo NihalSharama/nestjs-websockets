@@ -1,0 +1,24 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'chat alerts';
+  margin-left: -15rem;
+  margin-top: 10rem;
+}
+
+section.chat {
+  grid-area: chat;
+}
+
+section.alerts {
+  grid-area: alerts;
+}
+
+.tab-row {
+  padding-top: 0px;
+}
+
+.tab-btn.active {
+  background: blue;
+  color: white;
+}
